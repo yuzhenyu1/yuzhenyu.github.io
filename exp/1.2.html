@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  <link rel="stylesheet" href="myCSS.css" > 
+  <script src="myInit.js"> </script>
+  <title> "读好书、练思维、爱编程" </title>
+ </head> 
+ <style>
+    body{
+        font-size: 26px;
+        border-color: blue;
+        color: white;
+    }
+    header{
+        border: 2px solid blue;
+        height: 10%;
+    }
+    nav{
+        border: 2px solid blue;
+        height: 5%;
+    }
+    main{
+        height: 75%;
+        background-image: url(../lesson/CS.jpg);
+        background-repeat: no-repeat;
+    }
+ </style>
+ <body>
+  <header>
+	  <p id="book">
+      母猪产后护理
+    </p> 
+  </header>
+  <nav>
+   <button>导航1</button>
+   <button>导航2</button>
+   <button>导航3</button>
+  </nav>
+  <main id = 'main'>
+ 
+
+  </main> 
+
+  <footer> 
+   <p id="statusInfo">
+    CopyRight from GGboy 2022--2025
+	 </p>
+  </footer> 
+
+ <script src="myJs.js" > 
+ var UI = {};
+ UI.deviceWidth = window.innerWidth
+ UI.deviceHeight = window.innerHeight
+ document.body.style.height =UI.deviceHeight +"px";
+ </script>
+ </body>
+</html>
