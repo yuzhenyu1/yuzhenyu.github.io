@@ -2,43 +2,31 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width , initial-scale=1">
-  <link rel="stylesheet" href="myCSS.css" > 
-  <script src="myInit.js"> </script>
-  <title> "读好书、练思维、爱编程" </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 
+   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
+  -->
+  <link rel="stylesheet" href="myCSS.css"/> 
+  <title>Welcome to myCTApp</title>
  </head> 
  <body>
   <header>
-	  <p id="book">
-      计算思维系列课程@masterLijh
-    </p> 
+	<p id="lessonName" >
+     《计算思维和语言学习系统》
+    </p>
   </header>
   <nav>
-    海量经典正向您传过来，请耐心等等...
+   <ol id ="listMenus">
+    
+   </ol>
   </nav>
-  <main id = 'main'>
-    <img  id = "bookFace">
-    <div id ="showBook">
-      
-      <div id = "mediaUI">
-       <button id="prevMedia">Prev</button> 
-       <button id="playPause">Play | Pause</button> 
-       <button id="duration">000</button>
-       <button id="nextMedia">Next</button> 
-      </div>
-      <video id ="myV" ></video>
-      <ol id = "bookMenu"></ol>
-      <audio id = "myA"></audio> 
-    </div>
-  </main> 
-
+  
+  <section>
+   <img id="teacherFace" src="https://yuzhenyu1.github.io/yuzhenyu.github.io/myFace.jpg">
+ 
+  </section>
   <footer> 
-   <p id="statusInfo">
-    CopyRight from 李健宏 江西科技师范大学 2022--2025
-	 </p>
+   ‘读好书、练思维、勤编程’ ———余振宇@计算思维系列课程@江西科技师范大学 2022--2025 
   </footer> 
-
- <script src="myJs.js" > 
- </script>
  </body>
 </html>
